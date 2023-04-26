@@ -3,6 +3,7 @@
 #SBATCH --time=720:00:00
 #SBATCH -N 2
 #SBATCH --tasks-per-node=24
+#SBATCH --mem 512MB
 #SBATCH -e output-%j.log
 #SBATCH -o output-%j.out
 
